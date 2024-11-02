@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#fff;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #111;
+}
+
+#tasklist::-webkit-scrollbar{
+  background-color: transparent;
+  height: 5px;
+}
+#tasklist::-webkit-scrollbar-thumb{
+background-color: rgb(143, 143, 143);
+border-radius: 50px;
+}
